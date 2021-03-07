@@ -1,28 +1,29 @@
-﻿# [cortex A7](https://github.com/sochub/CA7) 
+﻿# [ESP32-S3](https://github.com/SoCXin/ESP32-S3)
 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+#### [Vendor](https://github.com/SoCXin/Vendor)：[Espressif](https://github.com/SoCXin/espressif)
+#### [Core](https://github.com/SoCXin/MIPS)：[Xtensa LX7](https://github.com/SoCXin/Tensilica)
+#### [Level](https://github.com/SoCXin/Level)：240MHz
 
-####  qitas@qitas.cn
+## [芯片描述](https://github.com/SoCXin/ESP32-S3/wiki)
 
-#### 归属：[cortex A](https://github.com/sochub/CA) 
-#### 工具：[arm-eabi](https://github.com/sochub/arm-eabi) 
+[ESP32-S3](https://github.com/SoCXin/ESP32-S3) 是一款低功耗的MCU 系统级芯片(SoC)，集成2.4 GHz Wi-Fi 和低功耗蓝牙(Bluetooth® LE) 双模无线通信。
 
+[ESP32-S3](https://github.com/SoCXin/ESP32-S3) 有完整的Wi-Fi子系统和低功耗蓝牙子系统，具有行业领先的低功耗性能和射频性能。支持多种低功耗工作状态，能够满足各种应用场景的功耗需求。ESP32-S3 芯片提供丰富的外设接口，并具有多种特有的硬件安全机制。完善的安全机制使芯片能够满足严格的安全要求。
 
-## [简介](https://github.com/sochub/CA7/wiki)
+#### 关键特性
 
-[Cortex-A7](https://developer.arm.com/ip-products/processors/cortex-a/cortex-a7) processor provides up to 20% more single thread performance than the Cortex-A5. The processor incorporates all features of the high-performance Cortex-A15 and Cortex-A17 processors, including virtualization support in hardware, Large Physical Address Extensions (LPAE), Neon, and 128-bit AMBA 4 AXI bus interface.
-
-- Architecture: Armv7-A
-- Multicore: 1-4 cores
-
-In a 28nm process, the Cortex-A7 can run at 1.2-1.6GHz, has an area of 0.45mm2 (with Floating-Point Unit, Neon and a 32KB L1 cache) and requires less than 100mW of total power in typical conditions. This lowest performance profile makes it an ideal standalone processor for a range of mobile devices, and means the Cortex-A7 can ultimately deliver similar performance to the Cortex-A9 processor at much higher levels of power efficiency.
-
-## [收录产品](https://github.com/sochub/CA7/wiki)
-
-- [全志 V5](https://github.com/sochub/V5) 
-- [全志 R16](https://github.com/sochub/R16)
-- [全志 H2](https://github.com/sochub/H2)
-
-##  [SoC开发平台](http://www.qitas.cn)  
+* 双模：Wi-Fi & BLE 5.0
 
 
+
+### [资源收录](https://github.com/SoCXin)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[ESP32-S3](https://github.com/SoCXin/ESP32-S3) 拥有 ESP32传统的WiFi和蓝牙功能
+
+###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
