@@ -8,7 +8,7 @@
 
 ### [简介](https://github.com/SoCXin/ESP32-S3/wiki)
 
-[ESP32-S3](https://github.com/SoCXin/ESP32-S3)  是一款集成 2.4 GHz Wi-Fi 和 Bluetooth 5 (LE) 的 MCU 芯片，支持远距离模式 (Long Range)。ESP32-S3 搭载 Xtensa® 32 位 LX7 双核处理器，沿用乐鑫成熟的物联网开发框架 ESP-IDF。。
+[ESP32-S3](https://github.com/SoCXin/ESP32-S3)  是一款集成 2.4 GHz Wi-Fi 和 Bluetooth 5 (LE) 的 MCU 芯片，沿用乐鑫成熟的物联网开发框架 ESP-IDF。
 
 [![sites](docs/ESP32-S3.png)](https://www.espressif.com/zh-hans/products/socs/ESP32-S3)
 
@@ -16,11 +16,16 @@
 #### 关键参数
 
 * Xtensa® LX7 240 MHz x 2
-* 512 KB SRAM (TCM)
+* 512 KB SRAM (TCM)，384 KB ROM
 * Octal SPI flash
 * Wi-Fi + Bluetooth 5 (LE)
-* 44 x GPIO
-* 超低功耗协处理器 (ULP)
+* USB OTG FS
+* 2 × SDIO 主机
+* DMA 5 接收 + 5 发送
+* 44 x GPIO，JTAG 接口
+* 超低功耗协处理器RISC-V (ULP)
+* 硬件加密加速器可支持 AES-128/256、Hash、RSA、HMAC，RNG
+* QFN56 (7x7mm)
 
 ### [资源收录](https://github.com/SoCXin)
 
@@ -32,5 +37,7 @@
 ### [选型建议](https://github.com/SoCXin/ESP32-S3)
 
 [ESP32-S3](https://github.com/SoCXin/ESP32-S3) 聚焦 AIoT 市场，如语音交互、智能音频和基于机器学习的预见性维护设备等。
+
+支持WiFi 5G的SoC可以探索下Realtek Ameba 产品[RTL8722DM](https://github.com/SoCXin/RTL8722DM)
 
 ### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
