@@ -1,0 +1,34 @@
+{
+    "type":"SoC",
+    "name":"ESP32-S3",
+    "title": "Espressif ESP32-S3 SoC",
+    "description":"Espressif Cortex-M3 SoC",
+    "Core": {
+        "num": 1,
+        "type":"Xtensa LX7",
+        "Freq":240,
+        "DMIPS": 150,
+        "CoreMark": 398
+    },
+    "manufacturer": {
+        "vendor":"Espressif",
+        "homepage":"https://www.espressif.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/ESP32-S3.git"
+    },
+    "version":"1.0.0",
+    "series":["ESP32-S3"],
+    "package":["QFN56"],
+    "peripheral": ["ADC","DAC","USB","OTG","CAN","SDIO","USART","SPI","IIC"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "STMicroelectronics",
+        "STM32",
+        "MAC10/100","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}

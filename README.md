@@ -1,29 +1,36 @@
 ﻿# [ESP32-S3](https://github.com/SoCXin/ESP32-S3)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[Espressif](https://github.com/SoCXin/espressif)
-#### [Core](https://github.com/SoCXin/MIPS)：[Xtensa LX7](https://github.com/SoCXin/Tensilica)
-#### [Level](https://github.com/SoCXin/Level)：240MHz
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-## [芯片描述](https://github.com/SoCXin/ESP32-S3/wiki)
-
-[ESP32-S3](https://github.com/SoCXin/ESP32-S3) 是一款低功耗的MCU 系统级芯片(SoC)，集成2.4 GHz Wi-Fi 和低功耗蓝牙(Bluetooth® LE) 双模无线通信。
-
-[ESP32-S3](https://github.com/SoCXin/ESP32-S3) 有完整的Wi-Fi子系统和低功耗蓝牙子系统，具有行业领先的低功耗性能和射频性能。支持多种低功耗工作状态，能够满足各种应用场景的功耗需求。ESP32-S3 芯片提供丰富的外设接口，并具有多种特有的硬件安全机制。完善的安全机制使芯片能够满足严格的安全要求。
-
-#### 关键特性
-
-* 双模：Wi-Fi & BLE 5.0
+* [Espressif](https://www.espressif.com/): [Xtensa LX7](https://github.com/SoCXin/MIPS)
+* [L6R4](https://github.com/SoCXin/Level): 2 x 240 MHz x 2.5 DMIPS/MHz (660CoreMark)
 
 
+### [简介](https://github.com/SoCXin/ESP32-S3/wiki)
+
+[ESP32-S3](https://github.com/SoCXin/ESP32-S3)  是一款集成 2.4 GHz Wi-Fi 和 Bluetooth 5 (LE) 的 MCU 芯片，支持远距离模式 (Long Range)。ESP32-S3 搭载 Xtensa® 32 位 LX7 双核处理器，沿用乐鑫成熟的物联网开发框架 ESP-IDF。。
+
+[![sites](docs/ESP32-S3.png)](https://www.espressif.com/zh-hans/products/socs/ESP32-S3)
+
+
+#### 关键参数
+
+* Xtensa® LX7 240 MHz x 2
+* 512 KB SRAM (TCM)
+* Octal SPI flash
+* Wi-Fi + Bluetooth 5 (LE)
+* 44 x GPIO
+* 超低功耗协处理器 (ULP)
 
 ### [资源收录](https://github.com/SoCXin)
 
-* [参考文档](docs/)
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
 
-### [选型建议](https://github.com/SoCXin)
 
-[ESP32-S3](https://github.com/SoCXin/ESP32-S3) 拥有 ESP32传统的WiFi和蓝牙功能
+### [选型建议](https://github.com/SoCXin/ESP32-S3)
 
-###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
+[ESP32-S3](https://github.com/SoCXin/ESP32-S3) 聚焦 AIoT 市场，如语音交互、智能音频和基于机器学习的预见性维护设备等。
+
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
