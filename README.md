@@ -1,10 +1,9 @@
 ﻿# [ESP32S3](https://github.com/SoCXin/ESP32S3)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](https://docs.soc.xin/ESP32S3)
 
-* [Espressif](https://www.espressif.com/): [Xtensa LX7](https://github.com/SoCXin/MIPS)
-* [L6R4](https://github.com/SoCXin/Level): 2 x 240 MHz x 2.5 DMIPS/MHz (660CoreMark)
-
+* [Espressif](https://www.espressif.com/): [Xtensa LX7](https://docs.soc.xin/espressif/index.html#esp-lx7)
+* [L4R4](https://github.com/SoCXin/Level): 2 x 240 MHz x 2.56 CoreMark/MHz (1181.60CoreMark)
 
 ### [简介](https://github.com/SoCXin/ESP32S3/wiki)
 
@@ -27,17 +26,20 @@
 * 硬件加密加速器可支持 AES-128/256、Hash、RSA、HMAC，RNG
 * QFN56 (7x7mm)
 
+[![sites](docs/ESP32-S3-PIN.png)](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_cn.pdf)
+
+ESP32-S3 芯片有 45 个物理通用输入输出管脚 (GPIO Pin)。每个管脚都可用作一个通用输入输出，或连接一个内部外设信号。利用 GPIO 交换矩阵、IO MUX 和 RTC IO MUX，可配置外设模块的输入信号来源于任何的 GPIO管脚，并且外设模块的输出信号也可连接到任意 GPIO 管脚。
+
 ### [资源收录](https://github.com/SoCXin)
 
 * [参考资源](src/)
 * [参考文档](docs/)
 * [参考工程](project/)
-* [入门教程](https://docs.soc.xin/ESP32S3)
 
 ### [选型建议](https://github.com/SoCXin/ESP32S3)
 
 [ESP32-S3](https://github.com/SoCXin/ESP32S3) 聚焦 AIoT 市场，如语音交互、智能音频和基于机器学习的预见性维护设备等。
 
-支持WiFi 5G的SoC可以探索下Realtek Ameba 产品[RTL8722DM](https://github.com/SoCXin/RTL8722DM)
+相关竞品包括支持WiFi 5G频段的Realtek Ameba 产品[RTL8722DM](https://github.com/SoCXin/RTL8722DM)
 
 ### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
