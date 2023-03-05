@@ -106,7 +106,7 @@ components/**/sdkconfig
 components/**/sdkconfig.old
 
 # Example project files
-examples/**/sdkconfig
+# examples/**/sdkconfig
 examples/**/sdkconfig.old
 examples/**/build
 
