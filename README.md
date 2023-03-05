@@ -1,5 +1,7 @@
 ﻿# [ESP32-S3](https://doc.soc.xin/ESP32-S3)
 
+[![Build Status](https://github.com/SoCXin/ESP32S3/workflows/idf/badge.svg)](https://github.com/SoCXin/ESP32S3/actions/workflows/idf.yml)
+
 * [Espressif](https://www.espressif.com/): [Xtensa LX7](https://docs.soc.xin/espressif/index.html#esp-lx7)
 * [L3R3](https://github.com/SoCXin/Level): 2x 240 MHz (1181.6 CoreMark) , [￥10.39 (QFN56)](https://item.szlcsc.com/3198290.html)
 
@@ -32,10 +34,10 @@ ESP32-S3 芯片有 45 个物理通用输入输出管脚 (GPIO Pin)。每个管�
 
 ## [选型建议](https://github.com/SoCXin/ESP32S3)
 
-[ESP32-S3](https://github.com/SoCXin/ESP32S3) 使用成熟的[ESP-IDF](https://github.com/espressif/esp-idf)，[Wi-Fi MCU竞品](https://doc.soc.xin/application/wifi)包括
+[ESP32-S3](https://github.com/SoCXin/ESP32S3) 使用成熟的[ESP-IDF](https://github.com/espressif/esp-idf)，[Wi-Fi MCU竞品](https://doc.soc.xin/application/wifi)包括:
 
 * Realtek Ameba [RTL8722DM](https://github.com/SoCXin/RTL8722DM)
-* 320MHz RISC-V [BL618](https://github.com/SoCXin/BL618)
-* [BK7256](https://github.com/SoCXin/BK7256)
-* [AC7916](https://github.com/SoCXin/AC7916)
-* [W801](https://github.com/SoCXin/W801)
+* 320MHz RISC-V Dual Core [BK7256](https://github.com/SoCXin/BK7256)
+* 320MHz RISC-V Dual Core [AC7916](https://github.com/SoCXin/AC7916)
+* 320MHz RISC-V QFN56 [BL618](https://github.com/SoCXin/BL618)
+* 240MHz XT804 QFN56 [W801](https://github.com/SoCXin/W801)
